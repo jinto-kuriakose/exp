@@ -22,6 +22,9 @@ public class Inheritance1 extends ClassB {
 		
 		DefaultMemberClass class1  =new  DefaultMemberClass();
 		
+		B b =new B();
+		//b.eat();
+		
 	}
 
 	void test(){
@@ -39,3 +42,17 @@ class ClassB{
 		System.out.println("from ClassB");
 	}
 }
+
+
+class Abc{
+	public int eat(){
+		return 0;
+	}
+}
+
+class Bcd extends Abc{
+//	public String eat(){
+//		return "k";
+//	}
+}
+
